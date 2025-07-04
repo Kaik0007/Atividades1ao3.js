@@ -5,13 +5,13 @@
 
 const readline = require ("readline-sync");
 
-let Nota1 = readline.questionFloat("Digite a sua primeira nota: ");
-let Nota2 = readline.questionFloat("Digite a sua segunda nota: ");
-let Nota3 = readline.questionFloat("Digite a sua terceira nota: ");
-let Nota4 = readline.questionFloat("Digite a sua quarta nota: ");
+let nota1 = readline.questionFloat("Digite a sua primeira nota: ");
+let nota2 = readline.questionFloat("Digite a sua segunda nota: ");
+let nota3 = readline.questionFloat("Digite a sua terceira nota: ");
+let nota4 = readline.questionFloat("Digite a sua quarta nota: ");
 
 
-let media = ((Nota1+Nota2+Nota3+Nota4) /4).toFixed(2);
+let media = ((nota1+nota2+nota3+nota4) /4).toFixed(2);
 
 
 console.log("Media: " + media);
